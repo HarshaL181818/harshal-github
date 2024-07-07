@@ -1,0 +1,48 @@
+<link rel="stylesheet" href="signup.css">
+<body>
+    <header>
+      <nav>
+        <a href="home.html">Home</a>
+        <a href="login.html">Login</a>
+        <a href="signup.html">Signup</a>
+      </nav>
+    </header>
+    <div class="bg-image">
+      <div class="container">
+        <div class="login-form">
+          <h2>Select the type of Account</h2>
+          <form action="signup.php" method="post" onsubmit="redirect(event)">
+            <label for="account_type">Choose Account Type:</label>
+            <select id="account_type" name="account_type">
+             <option value="">-select one-</option>
+             <option value="organisation">organisation</option>
+             <option value="volunteer">volunteer</option>
+            </select>
+
+            <input type="submit" value="Signup">
+          </form>
+        </div>
+      </div>
+    </div>
+      <footer>
+        <a href="#">Terms of Service</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Contact Us</a>
+       <span>&copy; 2023 Your Simple Ecommerce Website</span>
+      </footer>
+  </body>
+    <script>
+        function redirect(event){
+            event.preventDefault();
+            
+            var select = document.getElementById("account_type");
+            var selectedValue = select.value;
+
+            
+            if(selectedValue === "organisation"){
+                window.location.assign("OrganizationSignup.php");
+            } else if(selectedValue === "volunteer"){
+                window.location.assign("IndividualSignup.php");
+            }
+        }
+      </script>

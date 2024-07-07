@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+header {
+    background-color: #dd632e;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+  }
+  nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: 0.15s;
+  }
+  nav a:first-child {
+    margin-left: 0;
+    
+  }
+  nav :hover{
+    opacity: 0.7;
+  }
+  .container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  section .leftBox {
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding: 50px;
+    box-sizing: border-box;
+}
+section .leftBox .content {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    transition: .5s;
+}
+section .leftBox .content:hover {
+    background: #e91e63;
+}
+section .leftBox .content h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+section .leftBox .content p {
+    margin: 10px 0 0;
+    padding: 0;
+}
+section .events {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    
+    
+  }
+  section .events ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  section .events ul li {
+    background: #fff;
+    padding: 0;
+    margin: 40px ;
+    
+  }
+  section .events ul li .time {
+    position: relative;
+    padding: 40px;
+    background: #262626;
+    box-sizing: border-box;
+    width: 20%;
+    
+    float: left;
+    text-align: center;
+    transition: .5s;
+}
+section .events ul li:hover .time {
+    background: #e91e63;
+    
+}
+section .events ul li .time  h2 {
+    position: relative;
+    margin: 0;
+    padding:0;
+    top: 30%;
+    left: 30%;
+    transform: translate(-30%, -30%);
+    color: #fff;
+    font-size: 16px;
+    
+}
+section .events ul li .time h2 span {
+    font-size: 30px;
+}
+section .events ul li .details {
+    padding: 20px;
+    background: #fff;
+    box-sizing: border-box;
+    width: 70%;
+    height: 80%;
+    float: left;
+}
+section .events ul li .details h2 {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+section .events ul li .details p {
+    position: relative;
+    margin: 10px 0 0;
+    padding: 0;
+    font-size: 16px;
+}
+section .events ul li .details a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1.5px solid #262626;
+    margin-top: 8px;
+    font-size: 18px;
+    transition: .5s;
+}
+section .events ul li .details a:hover {
+    background: #e91e63;
+    color: #fff;
+    border-color: #e91e63;
+}
+
+  footer {
+    background-color: #dd632e;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: 0.15s;
+  }
+  footer :hover{
+    opacity: 0.7;
+  }

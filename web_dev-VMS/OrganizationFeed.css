@@ -1,0 +1,88 @@
+
+.header-buttons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.button {
+  background-color: #070605;
+  color: #e9e8f1;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.container {
+  color: #09090a;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  align-items: end;
+  margin-left: 90%;
+}
+/* Position the button at the top right corner */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+/* Hover effect for the button */
+.view-profile-button:hover {
+  background-color: #240596; /* Change the background color on hover */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;    
+  }
+  header {
+    background-color: #dd632e;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: 0.15s;
+  }
+  nav a:first-child {
+    margin-left: 0;
+  }
+  nav :hover{
+    opacity: 0.7;
+  }
+  footer {
+    background-color: #dd632e;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: 0.15s;
+  }
+
+  footer :hover{
+    opacity: 0.7;
+  }

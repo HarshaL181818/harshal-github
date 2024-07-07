@@ -1,0 +1,95 @@
+.bg-image {
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(./bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+  }
+  body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #dd632e;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav {
+  display: flex;
+  align-items: center;
+  transition: opacity 0.15s;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+}
+nav a:first-child {
+  margin-left: 0;
+}
+
+nav :hover{
+  opacity: 0.7;
+}
+
+.container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+footer {
+background-color: #dd632e;
+color: #fff;
+text-align: center;
+padding: 10px;
+position: fixed;
+bottom: 0;
+width: 100%;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: opacity 0.15s;
+  }
+
+  footer :hover{
+    opacity: 0.7;
+  }
+
+.post-form {
+max-width: 400px;
+margin: 50px auto;
+padding: 20px;
+color: #fff;
+font-weight: bold;
+border: 1px solid #ccc;
+background-color: #f8f6f42a;
+box-shadow: 0 26px 42px rgba(0, 0, 0, 0.1);
+}
+.post-form label,
+.post-form input,
+.post-form textarea {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  resize: none;
+}
+.post-form input[type="submit"] {
+  background-color: #dd632e;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+.post-form :hover[type="submit"]
+{
+  background-color: #fff ;
+  color: #dd632e ;
+}

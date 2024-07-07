@@ -1,0 +1,54 @@
+
+<link rel="stylesheet" type="text/css" href="create.css">
+<body>  
+    <div class="bg-image">
+    <div class="container">
+      <div class="post-form">
+        <form action="create.php" method="post">
+        <h2>Create New Post</h2>
+          <label for="eventname">Event Name:</label>
+          <input type="text" id="eventname" name="eventname" required>
+          
+          <label for="eventdate">Event Date:</label>
+          <input type="date" id="eventdate" name="eventdate" required>
+
+          <label for="eventtime">Event Time:</label>
+          <input type="datetime" id="eventtime" name="eventtime" required>
+
+          <label for="eventduration">Duration of the Event:</label>
+          <input type="text" id="eventduration" name="eventduration" required>
+
+          <label for="eventlocation">Location of the Event:</label>
+          <input type="text" id="eventlocation" name="eventlocation" required>
+
+          <label for="noofvolunteers">Number of volunteers:</label>
+          <input type="number" id="noofvolunteers" name="noofvolunteers" required>
+
+          <label for="managername">Manager Name:</label>
+          <input type="text" id="managername" name="managername" required>
+
+          <label for="contactdetails">Contact details of manager:</label>
+          <input type="number" id="contactdetails" name="contactdetails" required>
+          
+          <label for="eventdescription">Description:</label>
+          <textarea id="eventdescription" name="eventdescription" rows="4"required></textarea>
+          
+          <label for="eventpurpose">Purpose of the event:</label>
+          <textarea id="eventpurpose" name="eventpurpose" rows="2" required></textarea>
+
+          <input type="submit" value="Create Post" >
+          </form>
+      </div>
+    </div>
+  </div>
+    <footer>
+      <a href="#">Terms of Service</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Contact Us</a>
+      <span>&copy; <script>document.write(new Date().getFullYear())</script> Volunteer Management System</span>
+    </footer>
+  </body>
+  
+
+
+

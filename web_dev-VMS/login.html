@@ -1,0 +1,41 @@
+<link rel="stylesheet" href="login.css">
+<body>
+    <header>
+      <nav>
+        <a href="home.html">Home</a>
+        <a href="login.html">Login</a>
+        <a href="signup.html">Signup</a>
+      </nav>
+    </header>
+    <div class="bg-image">
+      <div class="container">
+        <div class="login-form">
+          <h2>Login to Your Account</h2>
+          <form>
+            
+          </form>
+          <form action="login.php" method="post">
+            <label for="account_type">Choose Account Type:</label>
+            <select id="account_type" name="account_type">
+             <option value="">-select one-</option>
+             <option value="organisation">organisation</option>
+             <option value="volunteer">volunteer</option>
+            </select>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required>
+          
+            <label for="opassword">Password:</label>
+            <input type="password" id="opassword" name="opassword" required>
+          
+            <input type="submit" value="Login">
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <a href="#">Terms of Service</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Contact Us</a>
+      <span>&copy; 2023 Your Simple Ecommerce Website</span>
+    </footer>
+</body>
